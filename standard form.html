@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standard Form</title>
+</head>
+<body>
+    <form action="message.html">
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Name"><br><br>
+        
+            
+            <label for="date">DOB</label>
+            <input type="date" id="date"><br><br>
+    
+
+            <label for="email">Email</label>
+            <input type="email" id="email"><br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Educational details</legend><br>
+            <label for="">Department</label>
+
+            <input type="radio"id="cs" name="dept">
+            <label for="cs">CS</label>
+
+            <input type="radio"id="ec" name="dept">
+            <label for="ec">ECE</label>
+
+            <input type="radio"id="eee" name="dept">
+            <label for="eee">EEE</label>
+
+            <input type="radio"id="mech" name="dept">
+            <label for="mech">MECH</label><br><br>
+
+
+            <label for="">Year of Graduation</label>
+            <input list="yog">
+            <datalist id="yog">
+
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+
+            </datalist>
+
+            <br><br>
+
+            <label for="">Skills</label><br>
+
+            <input type="checkbox"id="html">
+            <label for="html">HTML</label><br>
+
+            <input type="checkbox"id="css">
+            <label for="css">CSS</label><br>
+
+            <input type="checkbox"id="sql">
+            <label for="sql">SQL</label><br>
+
+            <input type="checkbox"id="js">
+            <label for="js">JAVASCRIPT</label><br>
+
+            <input type="checkbox"id="java">
+            <label for="java">JAVA</label>
+
+
+        </fieldset>
+        <input type="submit">
+    </form>
+</body>
+</html>
